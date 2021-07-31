@@ -1,5 +1,7 @@
 var a = {val:'a'}
-var b = {val:'b'}
+var b = {
+  val:'b'
+}
 
 if (a == b) console.log("a == b");
 
