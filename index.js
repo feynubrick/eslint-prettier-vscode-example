@@ -1,10 +1,10 @@
-var a = {val:'a'}
-var b = {
-  val:'b'
-}
+const a = { val: 'a' };
+const b = {
+  val: 'b',
+};
 
-if (a == b) console.log("a == b");
+if (isEqual(a, b)) console.log('a == b');
 
-function isEqual(a, b) {
-  return a === b;
+function isEqual(x, y) {
+  return x === y;
 }
