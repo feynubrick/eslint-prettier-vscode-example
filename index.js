@@ -1,9 +1,8 @@
-const a = 'a'
-const b = 'b'
-// const c = 'c'
+var a = {val:'a'}
+var b = {val:'b'}
 
-if (a === b) console.log("a == b");
+if (a == b) console.log("a == b");
 
-function isEqual(x, y) {
-  return x === y;
+function isEqual(a, b) {
+  return a === b;
 }
