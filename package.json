@@ -1,10 +1,8 @@
 {
-  "name": "lint-staged-test",
+  "name": "eslint-prettier-husky-vscode-extension-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ESLint, Prettier를 설정하고, git hook에 추가하고 VSCode Extension과 함께 사용하는 방법을 설명하는 예시 패키지입니다.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "author": "feynubrick",
