@@ -5,7 +5,7 @@ module.exports = {
     commonjs: true, // commonJS 전역변수 (require / module.exports 사용)
     es2021: true, // ECMAScript 2021 전역변수
   },
-  extends: ['eslint:recommended', 'prettier'], // eslint 기본 추천 설정을 확장해서 사용
+  extends: ['eslint:recommended', 'prettier'], // eslint 기본 추천 설정을 확장해서 사용, prettier와 충돌할 수 있는 설정 해제
   parserOptions: {
     ecmaVersion: 12, // ECMAScript 2021 버전
   },

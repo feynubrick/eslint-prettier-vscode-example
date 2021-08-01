@@ -5,6 +5,6 @@ const b = {
 
 if (isEqual(a, b)) console.log('a == b');
 
-function isEqual(x, y) {
+const isEqual = (x, y) => {
   return x === y;
-}
+};

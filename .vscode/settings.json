@@ -1,0 +1,10 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.options": { "configFile": "./.eslintrc.js" },
+  "eslint.validate": ["javascript"],
+  "prettier.configPath": "./.prettierrc.js"
+}
